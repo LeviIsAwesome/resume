@@ -194,8 +194,8 @@ li{
 #main ul{
   padding-left: 0.07in;
   margin: 0.08in 0;
-  
 }
+
 #main ol{
   padding-left: 0.07in;
 }
@@ -206,6 +206,25 @@ li{
   line-height: 0.24in;
   margin-right:0.2in;
 }
+#main date-right-aligned{
+  margin-top:0.03in;
+  margin-right:.3in;
+  float: right;
+  font-size: 10pt;
+}
+
+#main award-second{
+  float: right
+}
+
+#main award{
+  font-size: 11pt;
+  white-space: pre-line;
+  /* display: inline-block; */
+  line-height: 0.24in;
+  margin-right:0.2in;
+}
+
 
 #main dl{
   margin-left: -4.5pt;
@@ -229,6 +248,13 @@ li{
   margin-bottom: 1pt
 }
 
+.details .left{
+  float: left;
+}
+.details .award-first{
+  float: right
+  
+}
 .details .skill-title{
   font-size: 11pt;
   font-weight: 500;
@@ -300,80 +326,64 @@ li{
 }
 /***** fine-tunes on the lists... *****/
 
+.details .date-right-aligned{
+  margin-top:0.03in;
+  margin-right:.3in;
+  float: right;
+  font-size: 10.5pt;
+}
+
 .details .indent-right{
   padding-right:30em;
 }
 
 .details .indent-left{
+
+  margin-top: -0.02in;
+  font-size: 11pt;
+  white-space: pre-line;
+  /* display: inline-block; */
+  line-height: 0.24in;
+  margin-right:0.2in;
   padding-left:0.5em;
+  display:inline-block
 }
 
-.details .concise ul{
-  margin: 0 !important;
-  -webkit-columns: 5;
-  -moz-columns: 5;
-  columns: 2;
+.details .award{
+  font-size: 11pt;
+  white-space: pre-line;
+  /* display: inline-block; */
+  line-height: 0.24in;
+  margin-right:0.2in;
+  margin-top: -0.02in;
+  padding-left:0.5em;
+  display:inline-block
 }
 
-.details .concise li{
-  margin: 0 !important;
+.details .award-right{
+  float:right;
+  font-size: 11pt;
+  white-space: pre-line;
+  /* display: inline-block; */
+  line-height: 0.24in;
+  margin-right:0.2in;
+  margin-top: -0.02in;
+  padding-left:0.5em;
+  display:inline-block
 }
 
-.details .concise li{
-  margin-left: 0 !important;
-}
-
-/* SKILLS */
-#skills{
-  line-height: 1.5;
-}
-
-#skills h2{
-  margin-top:0.1in;
-  margin-bottom: 0.05in;
-  margin-left:0.05in;
-  font-size: 7.5pt;
-  font-weight: 500;
-  color: #fff
-}
-
-#skills ul{
-  margin: 0 0 0 0in;
-  padding: 0;
-  color:#fff;
-  font-size:7pt
-}
-
-#skills li{
-  padding-left: 0.05in;
-  margin: 0 0 0 0.05in;
-  font-weight: 100;
-  line-height: 1.2;
-  color:#fff;
-}
-
-#skills li::before{
+.details .award:before{
+  position: relative;
+  margin-left: -5.5pt;
+  padding-right:0.1in;
+  padding-left:0.3em;
   content: '• ';
 }
 
-/* CONTACT */
-#other ul{
-  margin-top: 0.1in;
-  padding-left: 0;
-  font-weight: 400;
-  line-height: 1.75;
-  color:#fff;
-  font-size:7pt
-  
-}
-
-#other li{
-  margin: 0.01in 0 0 0.05in;
-  font-weight: 100;
-  line-height: 1.75;
-  color:#fff;
-}
-
-#other li::before{
+.details .award-right:before{
+  position: relative;
+  margin-left: -5.5pt;
+  padding-right:0.1in;
+  padding-left:0.3em;
   content: '• ';
 }
