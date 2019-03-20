@@ -63,9 +63,19 @@ a {
   text-decoration: none;
 }
 a:link, a:visited {
-  color: black;
+  color: blue;
 }
 a:hover {
+  color: blue;
+}
+
+c {
+  text-decoration: none;
+}
+c:link, c:visited {
+  color: black;
+}
+c:hover {
   color: blue;
 }
 
@@ -101,7 +111,7 @@ li{
 
 #title h1{
   margin: auto;
-  font-weight: 400;
+  font-weight: 600;
   font-size: 41pt;
   line-height: 0.75in;
   margin-bottom:-0.15in
