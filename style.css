@@ -105,7 +105,7 @@ li{
   position: relative;
   left: 0in;
   /* Space between title and the first block */
-  margin-bottom: 0.3in;
+  margin-bottom: 0.2in;
   line-height: 1.2;
 }
 
@@ -134,7 +134,7 @@ li{
 }
 /* between each big block */
 .main-block{
-  margin-top: 0.1in;
+  margin-top: 0.07in;
 }
 
 #main h2{
