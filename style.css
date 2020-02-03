@@ -279,6 +279,13 @@ li{
   margin-bottom: 1pt
 }
 
+.details .further-title{
+  font-size: 12pt;
+  font-weight: 500;
+  float:left;
+  margin-bottom: 1pt
+}
+
 .details .major-title{
   font-size: 7.5pt;
   float:left;
@@ -302,6 +309,18 @@ li{
   font-size: 10pt;
 }
 
+.details .date-right-aligned-l1{
+  margin-top:0.03in;
+  margin-right:.1in;
+  float: right;
+  font-size: 10.5pt;
+}
+.details .date-right-aligned-l2{
+  margin-top:0.03in;
+  margin-right:.1in;
+  float: right;
+  font-size: 10.5pt;
+}
 .details .description{
   float: left;
   font-style: italic;
